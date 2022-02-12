@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/TestDatabase
+    username: postgres
+  data:
+    rest:
+      base-path: /api
+
+server:
+  port: 0
